@@ -1,0 +1,37 @@
+p[class="font-beginner"] {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: medium;
+}
+
+h3[class="font-ori"]{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal
+}
+h3[class="font-keren"]{
+     font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p~section {
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+h2[class="font-air"]{
+    font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450px;
+  font-style: normal;
+  font-size: 40px;
+
+}
+h2[class="font-garis"]{
+   font-family: "Edu VIC WA NT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica;
+    margin: 0;
+}
+
+main.container{
+    display: flex;
+    height: 100vh;
+}
+
+form.login-form{
+    width: auto;
+    margin: auto;
+}
+
+form.login-form > fieldset{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form.login-form input{
+    padding: 5px;
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+#submit{width: 100%;}
+
+#submit:hover{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
+.focus-blue:focus{
+    outline-color: blue;
+    background-color: rgb(12, 189, 253);
+}
+
+
+/* HOVER */
+#hover:hover{
+    border: 1px solid rgb(255, 111, 0);
+    background-color: rgb(0, 255, 136);
+    padding: 3px;
+    color: white;
+}
+
+/* VISTED */
+#test:visited{
+    color: black;
+}
+/* FIRST */
+ul > li:first-child{
+    list-style: circle;
+    width: 100px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* FRIST LINE */
+p::first-line{
+    color: red;
+    text-decoration: underline blue;
+}
+
+/* FIRST LETTER */
+P[class="font"]::first-letter{
+    counter-reset: red;
+    font-size: 30px;
+}

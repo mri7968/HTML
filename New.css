@@ -5,3 +5,213 @@ p[class="font-family"] {
   font-style: normal;
   font-size: 40px; ;
 }
+p[class="font-biger"]{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 30px;
+}
+h1{
+  color: white;
+  background-color: navy;
+}
+
+article[class="artikel-pertama"]{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-shadow: 5px 5px 10px white;
+    /* background-image: url('4_manfaat_rajin_bersosialisasi.jpg');
+    background-repeat: repeat-y; */
+    /* background-attachment: scroll; */
+    /* background-attachment: fixed;  */
+    /* background-position: right top; */
+    background: url('4_manfaat_rajin_bersosialisasi.jpg') no-repeat right top aqua ;
+
+
+}
+
+h2[class="hdua-pertama"]{
+  border:  3px solid blue;
+  border-radius: 8px;
+}
+h3{
+  border: 4px dotted red;
+  border-radius: 9px;
+}
+article[class="artikel-kedua"]{
+  border: 2px solid aqua;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin: 40px;
+}
+article[class=" artikael-ketiga"]{
+  border: 2px solid brown;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin: 40px;
+}
+article{
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+article#html{
+  width: 400px;
+}
+
+article{
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+p{
+  border: 2px;
+}
+article#baru1{
+ max-width: 200px;
+}
+
+article{
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+article#new2{
+  width: 400px;
+  height: 200px;
+}
+
+article{
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+article#new4{
+ font-size:2em;
+}
+/* DISPLA:NONE */
+article{
+  border: 1px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+article#new6{
+  display: none;
+}
+/* DISPLAYl:BLOCK */
+strong{
+  display: block;
+  border: 1px solid blue;
+}
+p#block{
+  padding: 5px;
+  border: 1px solid blue;
+}
+/* DISPLAY:INLINE */
+article{
+  border: 1px solid brown;
+}
+article#inline1 > *{
+  display: inline;
+  border: 1PX solid blueviolet;
+}
+/* INLINE-BLOCK */
+article{
+  display: inline-block;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+article#inline3{
+  width: 40%;
+}
+
+article#inline4{
+  width: 50%;
+}
+/* RELATIVE */
+article{
+  border: 1px solid red;
+}
+
+article#relativ2{
+  position: relative;
+  width: 300px;
+  left: 20%;
+}
+ /* POSITION FIXED */
+div#ask-me{
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+  position: fixed;
+  top: 90vh;
+  left: 80vw;
+}
+/* POSITION ABSOLUTE */
+article#absolute{
+  position: relative;
+  min-height: 150px;
+}
+
+article#absolute > h2{
+  border: 1px solid red;
+  padding: 5px;
+  position: absolute;
+  top: 70px;
+}
+/* POSITION STCKY */
+div#tittle{
+  background-color: blueviolet;
+  color: aquamarine;
+  font-weight: bolder;
+  padding: 10px;
+
+  position: sticky;
+  top: 0;
+}
+
+
+a:visited{
+    color: red;
+    background-color: black;
+}
+
+/* ACTIVE */
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+ul > li{
+  display: inline;
+  margin-right: 10px;
+}
+
+ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+ul > li > a:active{
+  text-decoration: none;
+  background-color: white;
+  color: blue;
+  padding: 10px;
+}
